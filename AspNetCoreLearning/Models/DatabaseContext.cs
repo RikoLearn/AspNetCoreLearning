@@ -6,6 +6,7 @@
         {
         }
 
+        public Microsoft.EntityFrameworkCore.DbSet<Book> Books { get; set; }
 
     }
 }
